@@ -30,3 +30,44 @@ List<ItemModel> editorsPick = [
     text: "Ed Sheeran, Big Sean, Juice WRLD, Post Malone",
   ),
 ];
+
+List<ItemModel> topGenres = [
+  ItemModel(
+    image: "assets/genre_1.png",
+    text: "Pop",
+  ),
+  ItemModel(
+    image: "assets/genre_2.png",
+    text: "Indie",
+  ),
+];
+
+List<ItemModel> popularPodcaseCategories = [
+  ItemModel(
+    image: "assets/category_1.png",
+    text: "News & Politics",
+  ),
+  ItemModel(
+    image: "assets/category_2.png",
+    text: "Comedy",
+  ),
+];
+
+List<ItemModel> browseAll = [
+  ItemModel(
+    image: "assets/browse_1.png",
+    text: "2021 Wrapped",
+  ),
+  ItemModel(
+    image: "assets/browse_2.png",
+    text: "Podcasts",
+  ),
+  ItemModel(
+    image: "assets/browse_3.png",
+    text: "Made for you",
+  ),
+  ItemModel(
+    image: "assets/browse_4.png",
+    text: "Charts",
+  ),
+];

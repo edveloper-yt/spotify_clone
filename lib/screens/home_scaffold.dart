@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_clone/screens/home.dart';
+import 'package:spotify_clone/screens/library.dart';
+import 'package:spotify_clone/screens/search.dart';
 
 class HomeScaffold extends StatefulWidget {
   const HomeScaffold({super.key});
@@ -13,8 +15,8 @@ class _HomeScaffoldState extends State<HomeScaffold> {
 
   List<Widget> pages = [
     const HomeScreen(),
-    const HomeScreen(),
-    const HomeScreen()
+    const SearchScreen(),
+    const LibraryScreen(),
   ];
 
   @override
