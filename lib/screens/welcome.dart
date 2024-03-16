@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spotify_clone/screens/home.dart';
+import 'package:spotify_clone/screens/home_scaffold.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -57,7 +57,7 @@ class WelcomeScreen extends StatelessWidget {
                   ElevatedButton(
                     onPressed: () => {
                       Navigator.of(context).push(MaterialPageRoute<void>(
-                        builder: (BuildContext context) => const HomeScreen(),
+                        builder: (BuildContext context) => const HomeScaffold(),
                       ))
                     },
                     style: ButtonStyle(
