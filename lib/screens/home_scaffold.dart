@@ -16,7 +16,7 @@ class _HomeScaffoldState extends State<HomeScaffold> {
   List<Widget> pages = [
     const HomeScreen(),
     const SearchScreen(),
-    const LibraryScreen(),
+    LibraryScreen(),
   ];
 
   @override

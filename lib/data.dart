@@ -71,3 +71,43 @@ List<ItemModel> browseAll = [
     text: "Charts",
   ),
 ];
+
+List<LibraryModel> libraries = [
+  LibraryModel(
+    image: "assets/library_1.png",
+    title: "Liked Songs",
+    subtitle: "Playlist • 58 songs",
+    subtitleImage: "assets/pin.png",
+  ),
+  LibraryModel(
+    image: "assets/library_2.png",
+    title: "New Episodes",
+    subtitle: "Update 2 days ago",
+    subtitleImage: "assets/pin.png",
+  ),
+  LibraryModel(
+    image: "assets/library_3.png",
+    title: "Lolo Zouaï",
+    subtitle: "Artist",
+  ),
+  LibraryModel(
+    image: "assets/library_4.png",
+    title: "Lana Del Rey",
+    subtitle: "Artist",
+  ),
+  LibraryModel(
+    image: "assets/library_5.png",
+    title: "Front Left",
+    subtitle: "Playlist • Spotify",
+  ),
+  LibraryModel(
+    image: "assets/library_6.png",
+    title: "Marvin Gaye",
+    subtitle: "Artist",
+  ),
+  LibraryModel(
+    image: "assets/library_7.png",
+    title: "Les",
+    subtitle: "Song • Childish Gambino",
+  ),
+];
